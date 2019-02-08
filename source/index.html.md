@@ -9,7 +9,7 @@ language_tabs: # must be one of https://git.io/vQNgJ
 
 toc_footers:
   - <a href='#'>Sign Up for a Developer Key</a>
-  - <a href='https://github.com/lord/slate'>Documentation Powered by Slate</a>
+  - <a href='https://meuposto.app'>Documentation Powered by MeuPosto App 2019</a>
 
 includes:
   - errors
@@ -17,15 +17,16 @@ includes:
 search: true
 ---
 
-# Introduction
+# Introdução
 
-Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.
+Bem vindo a API do Meu Posto, esta API exige uma homologação e a assinatura de um contrato de parceria com o Meu Posto App.
 
-We have language bindings in Shell, Ruby, Python, and JavaScript! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.
+A integração consiste em enviar para api os seguintes dados:
 
-This example API documentation page was created with [Slate](https://github.com/lord/slate). Feel free to edit it and use it as a base for your own API's documentation.
+- Preços atualizados da bomba
+- Dados da compra
 
-# Authentication
+# Authenticação
 
 > To authorize, use this code:
 
@@ -236,4 +237,3 @@ This endpoint deletes a specific kitten.
 Parameter | Description
 --------- | -----------
 ID | The ID of the kitten to delete
-
