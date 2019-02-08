@@ -7,10 +7,10 @@ This error section is stored in a separate file in <code>includes/_errors.md</co
 The Kittn API uses the following error codes:
 
 
-Error Code | Meaning
+Códigos de erro
 ---------- | -------
 400 | Bad Request -- Your request is invalid.
-401 | Unauthorized -- Your API key is wrong.
+401 | Unauthorized -- A chave da API está invalidada.
 403 | Forbidden -- The kitten requested is hidden for administrators only.
 404 | Not Found -- The specified kitten could not be found.
 405 | Method Not Allowed -- You tried to access a kitten with an invalid method.
